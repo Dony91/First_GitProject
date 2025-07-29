@@ -7,3 +7,4 @@ const students = [
 const topStudents = students
   .filter(student => student.marks > 70) 
   .map(student => student.name); 
+console.log(topStudents);
